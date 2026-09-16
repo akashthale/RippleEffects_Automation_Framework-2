@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="ExtentReportDemo.ExtentListnerClass" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Login_Testcase_class.Verify_user_is_able_to_login_sucessfully"/>
+      <class name="superAdmin_Testcases_class.TC_01_Verify_user_is_able_to_create_a_district"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
